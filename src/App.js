@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import { useEffect, useState } from "react";
+import firebase from "./firebase";
+import { getDatabase, ref, onValue } from "firebase/database";
+import Quiz from "./Components/Quiz";
+import Footer from "./Components/Footer";
 
-function App() {
+const App = () => {
+  const [questions, setQuestions] = useState([]);
+  useEffect(() => {
+    const database = getDatabase(firebase);
+    const dbRef = ref(database);
+    onValue(dbRef, (response) => {
+      setQuestions(response.val());
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="page-container">
+      <div id="content-wrap">
+        <h1>Guess the Song</h1>
+        <Quiz questions={questions} />
+      </div>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
