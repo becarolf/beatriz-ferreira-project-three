@@ -107,5 +107,215 @@
         "option3": "Me!",
         "answer": "Me!",
         "lyricsVideo": "https://www.youtube.com/embed/FuXNumBwDOM"
+    },
+
+    {
+        "id": 12,
+        "question": "With your organic shoes and your million-dollar couch I bet you think about me when you say 'Oh my god, she's insane, she wrote a song about me'",
+        "option1": "I Bet You Think About Me",
+        "option2": "Sad Beautiful Tragic",
+        "option3": "Everything Has Changed",
+        "answer": "I Bet You Think About Me",
+        "lyricsVideo": "https://www.youtube.com/embed/5UMCrq-bBCg"
+    },
+
+    {
+        "id": 13,
+        "question": "I bet this time of night, you’re still up, I bet you're tired from a long hard week, I bet you're sittin' in your chair by the window looking out at the city",
+        "option1": "Cruel Summer",
+        "option2": "Daylight",
+        "option3": "I Almost Do",
+        "answer": "I Almost Do",
+        "lyricsVideo": "https://www.youtube.com/embed/w1AV_35zVwU"
+    },
+
+    {
+        "id": 14,
+        "question": "And when we had that fight out in the rain, you ran after me and called my name, I never wanna see you walk away",
+        "option1": "Invisible String",
+        "option2": "Illicit Affairs",
+        "option3": "Betty",
+        "answer": "Betty",
+        "lyricsVideo": "https://www.youtube.com/embed/6TAPqXkZW_I"
+    },
+
+    {
+        "id": 15,
+        "question": "Oh, he's so smug, Mr. 'Always Wins', so far above me in every sense, so far above feeling anything",
+        "option1": "We Were Happy",
+        "option2": "Mr. Perfectly Fine",
+        "option3": "Don't You",
+        "answer": "Mr. Perfectly Fine",
+        "lyricsVideo": "https://www.youtube.com/embed/rFjJs6ZjPe8"
+    },
+
+     {
+        "id": 16,
+        "question": "That's when, when it's sunny or storming, when I'm laughing, when I'm crying, that's when I'll be waiting at the front gate",
+        "option1": "Bye Bye Baby",
+        "option2": "You All Over Me",
+        "option3": "That's When",
+        "answer": "That's When",
+        "lyricsVideo": "https://www.youtube.com/embed/aOa6D6ku3dM"
+    },
+
+    {
+        "id": 17,
+        "question": "I was a dreamer before you went and let me down, now it's too late for you and your white horse to come around",
+        "option1": "That's When",
+        "option2": "White Horse",
+        "option3": "Fairytale",
+        "answer": "White Horse",
+        "lyricsVideo": "https://www.youtube.com/embed/9-rKvhsjwKU"
+    },
+
+     {
+        "id": 18,
+        "question": "I'm standing there on a balcony in summer air see the lights, see the party, the ball gowns",
+        "option1": "Hey Stephen",
+        "option2": "Love Story",
+        "option3": "Fifteen",
+        "answer": "Love Story",
+        "lyricsVideo": "https://www.youtube.com/embed/aXzVF3XeS8M"
+    },
+
+    {
+        "id": 19,
+        "question": "Oh, I remember you driving to my house in the middle of the night, I'm the one who makes you laugh when you know you're 'bout to cry",
+        "option1": "Tell Me Why",
+        "option2": "Fearless",
+        "option3": "You Belong With Me",
+        "answer": "You Belong With Me",
+        "lyricsVideo": "https://www.youtube.com/embed/vwp8Ur6tO-8"
+    },
+
+    {
+        "id": 20,
+        "question": "'Cause I don't know how it gets better than this, you take my hand and drag me head first, fearless",
+        "option1": "Fearless",
+        "option2": "Breathe",
+        "option3": "You're Not Sorry",
+        "answer": "Fearless",
+        "lyricsVideo": "https://www.youtube.com/embed/7lLigiVgJsE"
+    },
+
+    {
+        "id": 21,
+        "question": "And I love you for giving me your eyes, for staying back and watching me shine, and I didn't know if you knew so I'm taking this chance to say that I had the best day with you today",
+        "option1": "The Best Day",
+        "option2": "Forever & Always",
+        "option3": "Jump Then Fall",
+        "answer": "The Best Day",
+        "lyricsVideo": "https://www.youtube.com/embed/KZeI9I875Ig"
+    },
+    
+    {
+        "id": 22,
+        "question": "It feels like one of those nights, we ditch the whole scene. It feels like one of those nights, we won't be sleepin'",
+        "option1": "Come Back... Be Here",
+        "option2": "22",
+        "option3": "I Knew You Were Trouble",
+        "answer": "22",
+        "lyricsVideo": "https://www.youtube.com/embed/9boiT64sm0Q"
+    },
+
+    {
+        "id": 23,
+        "question": "Paper cut stings from our paper-thin plans. My time, my wine, my spirit, my trust, tryna find a part of me you didn't take up",
+        "option1": "Afterglow",
+        "option2": "Cornelia Street",
+        "option3": "Death By A Thousands Cuts",
+        "answer": "Death By A Thousands Cuts",
+        "lyricsVideo": "https://www.youtube.com/embed/GTEFSuFfgnU"
+    },
+
+     {
+        "id": 24,
+        "question": "We were a fresh page on the desk filling in the blanks as we go, as if the street lights pointed in an arrow head leading us home",
+        "option1": "Cornelia Street",
+        "option2": "Death By A Thousands Cuts",
+        "option3": "Daylight",
+        "answer": "Cornelia Street",
+        "lyricsVideo": "https://www.youtube.com/embed/VikHHWrgb4Y"
+    },
+
+       {
+        "id": 25,
+        "question": "But I've learned a lesson that stressin' and obsessin' 'bout somebody else is no fun and snakes and stones never broke my bones",
+        "option1": "Paper Rings",
+        "option2": "You Need To Calm Down",
+        "option3": "Cruel Summer",
+        "answer": "You Need To Calm Down",
+        "lyricsVideo": "https://www.youtube.com/embed/Dkk9gvTmCXY"
+    },
+
+    {
+        "id": 26,
+        "question": "I'm so sick of running as fast as I can wondering if I'd get there quicker if I was a man",
+        "option1": "The Man",
+        "option2": "The Archer",
+        "option3": "Lover",
+        "answer": "The Man",
+        "lyricsVideo": "https://www.youtube.com/embed/AqAJLh9wuZ0"
+    },
+
+    {
+        "id": 27,
+        "question": "And there's a dazzling haze, a mysterious way about you, dear. Have I known you twenty seconds or twenty years?",
+        "option1": "The Man",
+        "option2": "The Archer",
+        "option3": "Lover",
+        "answer": "Lover",
+        "lyricsVideo": "https://www.youtube.com/embed/-BjZmE2gtdo"
+    },
+
+     {
+        "id": 28,
+        "question": "But I can see us lost in the memory, August slipped away into a moment in time 'cause it was never mine",
+        "option1": "August",
+        "option2": "Seven",
+        "option3": "Style",
+        "answer": "August",
+        "lyricsVideo": "https://www.youtube.com/embed/nn_0zPAfyo8"
+    },
+
+     {
+        "id": 29,
+        "question": "Does a scorpion sting when fighting back? They strike to kill, and you know I will, you know I will",
+        "option1": "This Is Me Trying",
+        "option2": "Epiphany",
+        "option3": "Mad Woman",
+        "answer": "Mad Woman",
+        "lyricsVideo": "https://www.youtube.com/embed/6DP4q_1EgQQ"
+    },
+
+     {
+        "id": 30,
+        "question": "Does a scorpion sting when fighting back? They strike to kill, and you know I will, you know I will",
+        "option1": "This Is Me Trying",
+        "option2": "Epiphany",
+        "option3": "Mad Woman",
+        "answer": "Mad Woman",
+        "lyricsVideo": "https://www.youtube.com/embed/6DP4q_1EgQQ"
+    },
+
+    {
+        "id": 31,
+        "question": "Oh, I can't stop you putting roots in my dreamland, my house of stone, your ivy grows and now I'm covered in you",
+        "option1": "Ivy",
+        "option2": "Coney Island",
+        "option3": "'Tis The Damn Season",
+        "answer": "Ivy",
+        "lyricsVideo": "https://www.youtube.com/embed/9nIOx-ezlzA"
+    },
+
+    {
+        "id": 32,
+        "question": "And I've cleaned enough houses to know how to cover up a scene. Good thing Este's sister's gonna swear she was with me",
+        "option1": "No Body, No Crime",
+        "option2": "Delicate",
+        "option3": "'Evermore",
+        "answer": "No Body, No Crime",
+        "lyricsVideo": "https://www.youtube.com/embed/IEPomqor2A8"
     }
 ]
