@@ -94,6 +94,11 @@ h2 {
     font-family: $quizFont;
     font-size: 20px;
     text-transform: uppercase;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: $colorGreen;
+    }
   }
 }
 
@@ -110,7 +115,11 @@ h2 {
   height: 50px;
   margin: 10px 0;
   float: right;
-  color: $colorPurple;
+  background-color: $colorBrown;
+  color: $lightGreen;
+  font-size: larger;
+  font-weight: 800;
+  border-radius: 10px;
 }
 
 .answer-container {
@@ -128,5 +137,6 @@ h2 {
     text-align: center;
     color: $lightGreen;
     font-size: 16px;
+    font-weight: 800;
   }
 }

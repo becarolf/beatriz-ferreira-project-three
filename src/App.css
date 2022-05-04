@@ -111,6 +111,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.button-container button:hover, .button-container button:focus {
+  cursor: pointer;
+  background-color: #cdc6ac;
+}
+
 .right-answer {
   border: 5px solid green;
 }
@@ -124,7 +129,11 @@ h2 {
   height: 50px;
   margin: 10px 0;
   float: right;
-  color: #b0a19d;
+  background-color: #a85d36;
+  color: #e0e1d8;
+  font-size: larger;
+  font-weight: 800;
+  border-radius: 10px;
 }
 
 .answer-container .youtube {
@@ -144,5 +153,6 @@ h2 {
   text-align: center;
   color: #e0e1d8;
   font-size: 16px;
+  font-weight: 800;
 }
 /*# sourceMappingURL=App.css.map */
