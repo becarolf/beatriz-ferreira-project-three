@@ -2,8 +2,10 @@ import "./App.scss";
 import { useEffect, useState } from "react";
 import firebase from "./firebase";
 import { getDatabase, ref, onValue } from "firebase/database";
+import Header from "./Components/Header";
 import Quiz from "./Components/Quiz";
 import Footer from "./Components/Footer";
+
 
 const App = () => {
   const [questions, setQuestions] = useState([]);
@@ -18,7 +20,7 @@ const App = () => {
   return (
     <div id="page-container">
       <div id="content-wrap">
-        <h1>Guess the Song</h1>
+        <Header />
         <Quiz questions={questions} />
       </div>
       <Footer />
