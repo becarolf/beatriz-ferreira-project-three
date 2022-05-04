@@ -105,6 +105,7 @@ h2 {
   width: 80%;
   height: 50px;
   margin: 10px;
+  border: none;
   border-radius: 10px;
   font-family: "IM Fell DW Pica", serif;
   font-size: 20px;
@@ -114,6 +115,7 @@ h2 {
 .button-container button:hover, .button-container button:focus {
   cursor: pointer;
   background-color: #cdc6ac;
+  border: 2px solid #b0a19d;
 }
 
 .right-answer {
@@ -126,14 +128,25 @@ h2 {
 
 .next-button {
   width: 200px;
-  height: 50px;
-  margin: 10px 0;
+  height: 45px;
+  margin: 20px 0;
   float: right;
-  background-color: #a85d36;
-  color: #e0e1d8;
+  background-color: #f0f0f3;
+  border: none;
+  color: #a85d36;
   font-size: larger;
   font-weight: 800;
   border-radius: 10px;
+  -webkit-box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020;
+          box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020;
+}
+
+.next-button:hover, .next-button:focus {
+  cursor: pointer;
+  background-color: #a85d36;
+  color: #f0f0f3;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .answer-container .youtube {
