@@ -1,6 +1,11 @@
 const Footer = () => (
-    <footer id="footer">
-        <p>Created by Bea Ferreira - 2022</p>
+    <footer>
+        <div id="footer">
+            <div className="content-wrap">
+                <p>Created by Bea Ferreira at Juno College of Technology © 2022</p>
+            </div>
+        </div>
+        
     </footer>
 )
 

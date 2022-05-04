@@ -35,8 +35,9 @@ const Quiz = ({ questions }) => {
   };
 
   return (
-    <div className="quiz-container">
-      <h3>{currentQuestion.question}</h3>
+    <div className="quiz-container content-wrap">
+      <h3>See the lyrics below & guess the song!</h3>
+      <p>{currentQuestion.question}</p>
       <div
         className={`${
           answer === true
