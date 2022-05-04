@@ -23,7 +23,7 @@ const Quiz = ({ questions }) => {
 
   const handleAnswer = (e) => {
     const userAnswer = e.target.innerText;
-    setAnswer(userAnswer === currentQuestion.answer);
+    setAnswer(userAnswer.toUpperCase() === currentQuestion.answer.toUpperCase());
   };
 
   const handleNext = () => {
