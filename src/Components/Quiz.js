@@ -23,7 +23,9 @@ const Quiz = ({ questions }) => {
 
   const handleAnswer = (e) => {
     const userAnswer = e.target.innerText;
-    setAnswer(userAnswer.toUpperCase() === currentQuestion.answer.toUpperCase());
+    setAnswer(
+      userAnswer.toUpperCase() === currentQuestion.answer.toUpperCase()
+    );
   };
 
   const handleNext = () => {
@@ -35,7 +37,7 @@ const Quiz = ({ questions }) => {
   };
 
   return (
-    <div className="quiz-container content-wrap">
+    <main className="quiz-container">
       <h3>See the lyrics below & guess the song!</h3>
       <p>{currentQuestion.question}</p>
       <div
@@ -78,7 +80,7 @@ const Quiz = ({ questions }) => {
           </div>
         ) : null}
       </div>
-    </div>
+    </main>
   );
 };
 

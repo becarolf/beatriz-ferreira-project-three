@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <header className="tv-header">
 
-            <div className="header-container content-wrap">
+            <div className="header-container">
                 <div className="header-text">
                     <h1>Guess the Song</h1>
                     <h2>Taylor's Version</h2>
