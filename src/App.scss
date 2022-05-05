@@ -141,8 +141,8 @@ h2 {
   &:hover,
   &:focus {
     cursor: pointer;
-    background-color: $colorBrown;
-    color: #f0f0f3;
+    background-color: $lightGreen;
+    color: black;
     box-shadow: none;
   }
 }
@@ -150,9 +150,6 @@ h2 {
 .answer-container {
   .youtube {
     padding-top: 80px;
-    iframe {
-      width: 100%;
-    }
   }
 }
 
@@ -212,6 +209,14 @@ h2 {
     h3 {
       font-size: 24px;
     }
+    .answer-container {
+      .youtube {
+        padding-top: 80px;
+        iframe {
+          width: 100%;
+        }
+      }
+    }
   }
 }
 
@@ -253,9 +258,17 @@ h2 {
     }
     p {
       width: 85%;
-      font-size: 21px;
+      font-size: 18px;
       padding: 10px 10px;
       line-height: 1.2rem;
+    }
+    .answer-container {
+      .youtube {
+        padding-top: 80px;
+        iframe {
+          width: 100%;
+        }
+      }
     }
   }
 
