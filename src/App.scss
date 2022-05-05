@@ -1,0 +1,280 @@
+// variables
+$colorGreen: #cdc6ac;
+$lightGreen: #e0e1d8;
+$colorBrown: #a85d36;
+$colorPurple: #b0a19d;
+$quizFont: "IM Fell DW Pica", serif;
+
+body {
+  background-color: $colorGreen;
+  font-family: $quizFont;
+  margin: 0 auto;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  max-width: 1280px;
+  padding-bottom: 1rem; /* Footer height */
+  text-align: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 56px;
+  font-style: italic;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-size: 54px;
+  font-style: italic;
+  text-decoration: overline;
+  margin: 0;
+}
+
+.tv-header {
+  background-image: url(./assets/pattern_overlapping-hexagons_0.5_2_0-0_0_1__cdc6ac_ffffff.png);
+  background-size: cover;
+  .header-container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  .header-text {
+    width: 45%;
+    color: $colorBrown;
+    line-height: 5rem;
+    align-self: center;
+  }
+  .image-container {
+    width: 40%;
+    margin-right: -100px;
+    height: 100%;
+    .header-image {
+      background-color: transparent;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}
+
+.quiz-container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  background-color: $colorBrown;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  padding: 40px 10px;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    color: $lightGreen;
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  p {
+    width: 80%;
+    background-color: $lightGreen;
+    border-radius: 10px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 10px 20px;
+  }
+}
+
+.button-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  button {
+    width: 80%;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: $colorGreen;
+      border: 2px solid $colorPurple;
+    }
+  }
+}
+
+.right-answer {
+  border: 5px solid green;
+}
+
+.wrong-answer {
+  border: 5px solid red;
+}
+
+.next-button {
+  width: 200px;
+  height: 45px;
+  margin: 20px 0;
+  float: right;
+  background-color: #f0f0f3;
+  border: none;
+  color: $colorBrown;
+  font-size: larger;
+  font-weight: 800;
+  border-radius: 10px;
+  box-shadow: inset -10px -10px 10px #ffffff70, inset 10px 10px 10px #aeaec020;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    background-color: $lightGreen;
+    color: black;
+    box-shadow: none;
+  }
+}
+
+.answer-container {
+  .youtube {
+    padding-top: 80px;
+  }
+}
+
+#footer {
+  position: absolute;
+  background-color: $lightGreen;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding-bottom: 1rem; /* Footer height */
+  p {
+    text-align: center;
+    color: $colorBrown;
+    font-size: 16px;
+    font-weight: 300;
+    // margin: 0;
+  }
+}
+
+// Responsive Design
+@media (max-width: 1024px) {
+  .tv-header {
+    .header-text {
+      line-height: 3.5rem;
+      h1 {
+        font-size: 45px;
+      }
+
+      h2 {
+        font-size: 42px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .tv-header {
+    .header-container {
+      height: 300px;
+      line-height: 3rem;
+      .header-text {
+        line-height: 3rem;
+        h1 {
+          font-size: 34px;
+        }
+        h2 {
+          font-size: 36px;
+        }
+      }
+      .image-container {
+        margin-right: -70px;
+      }
+    }
+  }
+
+  .quiz-container {
+    h3 {
+      font-size: 24px;
+    }
+    .answer-container {
+      .youtube {
+        padding-top: 80px;
+        iframe {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .tv-header {
+    .header-container {
+      height: 300px;
+      flex-direction: column;
+      align-items: center;
+      .header-text {
+        height: 30%;
+        width: 100%;
+        margin-top: 35px;
+        line-height: 2rem;
+        h1 {
+          font-size: 28px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+      }
+      .image-container {
+        display: flex;
+        height: 70%;
+        margin: 0;
+        .header-image {
+          bottom: -18px;
+        }
+      }
+    }
+  }
+
+  .quiz-container {
+    margin-top: 35px;
+    padding: 20px 10px;
+    h3 {
+      font-size: 22px;
+      margin: 10px;
+    }
+    p {
+      width: 85%;
+      font-size: 18px;
+      padding: 10px 10px;
+      line-height: 1.2rem;
+    }
+    .answer-container {
+      .youtube {
+        padding-top: 80px;
+        iframe {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .button-container {
+    button {
+      font-size: 18px;
+    }
+  }
+}
