@@ -73,9 +73,9 @@ h2 {
   width: 80%;
   margin: auto;
   background-color: $colorBrown;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 80px;
-  padding: 70px 10px;
+  padding: 40px 10px;
   flex-direction: column;
   align-items: center;
   h3 {
@@ -176,17 +176,18 @@ h2 {
 }
 
 // Responsive Design
-
 @media (max-width: 1024px) {
   .tv-header {
     .header-text {
       line-height: 3.5rem;
-    }
-  }
+      h1 {
+        font-size: 45px;
+      }
 
-  h1,
-  h2 {
-    font-size: 45px;
+      h2 {
+        font-size: 42px;
+      }
+    }
   }
 }
 
@@ -245,15 +246,16 @@ h2 {
   }
 
   .quiz-container {
-    margin-top: 40px;
-    padding: 30px 10px;
+    margin-top: 35px;
+    padding: 20px 10px;
     h3 {
       font-size: 22px;
+      margin: 10px;
     }
     p {
-      width: 70%;
+      width: 85%;
       font-size: 21px;
-      padding: 10px 40px;
+      padding: 10px 10px;
     }
   }
 
