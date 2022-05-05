@@ -41,22 +41,19 @@ h2 {
   background-image: url(./assets/pattern_overlapping-hexagons_0.5_2_0-0_0_1__cdc6ac_ffffff.png);
   background-size: cover;
   .header-container {
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: end;
   }
   .header-text {
-    width: 40%;
+    width: 45%;
     color: $colorBrown;
     line-height: 5rem;
     align-self: center;
   }
-  .text-container {
-    width: 50%;
-  }
   .image-container {
-    width: 50%;
+    width: 40%;
     margin-right: -100px;
     height: 100%;
     .header-image {
@@ -70,7 +67,7 @@ h2 {
 
 .quiz-container {
   display: flex;
-  width: 80%;
+  width: 70%;
   margin: auto;
   background-color: $colorBrown;
   margin-top: 60px;
@@ -194,6 +191,7 @@ h2 {
 @media (max-width: 768px) {
   .tv-header {
     .header-container {
+      height: 300px;
       line-height: 3rem;
       .header-text {
         line-height: 3rem;
@@ -220,10 +218,11 @@ h2 {
 @media (max-width: 480px) {
   .tv-header {
     .header-container {
+      height: 300px;
       flex-direction: column;
       align-items: center;
       .header-text {
-        height: 40%;
+        height: 30%;
         width: 100%;
         margin-top: 35px;
         line-height: 2rem;
@@ -236,7 +235,7 @@ h2 {
       }
       .image-container {
         display: flex;
-        height: 60%;
+        height: 70%;
         margin: 0;
         .header-image {
           bottom: -18px;
